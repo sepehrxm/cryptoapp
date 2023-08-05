@@ -13,10 +13,10 @@ const Coins = (props) => {
                     <img id='coinImg' src={coin.image} alt="image"/>
                     </div>
                     <div>
-                    <p>{coin.current_price.toFixed(7)}</p>
+                    <p>{coin.current_price.toFixed(5)}</p>
                     </div>
                     <div id='lastc'>
-                      {coin.price_change_24h>0 ? <p id='green'>{coin.price_change_24h.toFixed(7)}</p> : <p id='red'>{coin.price_change_24h.toFixed(7)}</p>}
+                      {coin.price_change_24h>0 ? <p id='green'>{coin.price_change_24h.toFixed(5)}</p> : <p id='red'>{coin.price_change_24h.toFixed(5)}</p>}
                     </div>
                 </div>
             )
