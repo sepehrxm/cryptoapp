@@ -10,14 +10,8 @@ const Header = () => {
           <div>
           <p>Current</p>
           </div>
-          <div>
-          <p>High/24</p>
-          </div>
-          <div>
-          <p>Low/24</p>
-          </div>
           <div id="lastc">
-         <p>Change/24</p>
+         <p>Change/24h</p>
           </div>
     </div>
   )

@@ -6,7 +6,7 @@ import Header from './Header';
 import coin from './coin.png'
 
 function App() {
-  let url = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=1&sparkline=false&locale=en"
+  let url = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=30&page=1&sparkline=false&locale=en"
   let [coins, setCoins] = useState([])
   
   let getCoins = async () => {
@@ -36,7 +36,7 @@ function App() {
         <img id='topImg' src={coin} alt="coin" />
         </div>
         <div>
-        <h1 id='market'>Coins Market Data (USD)</h1>
+        <h2 id='market'>Coins Market Data (USD)</h2>
         </div>
       </div>
 
