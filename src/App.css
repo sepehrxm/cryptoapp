@@ -77,7 +77,7 @@ body{
     padding: 0;
     margin-bottom: 20px;
     margin-top: 10px;
-    background-color: rgba(24, 7, 7, 0.671);
+    background-color: rgba(112, 78, 204, 0.116);
 
 }
 
@@ -90,7 +90,7 @@ body{
 }
 
 #market{
-    color: rgb(165, 200, 230);
+    color: rgb(233, 39, 97);
     margin: 0;
     padding: 0;
     margin-bottom: 30px;
@@ -115,4 +115,8 @@ footer{
 
 #red{
     color: red;
+}
+
+#symbol{
+    text-transform: uppercase;
 }

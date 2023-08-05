@@ -7,7 +7,7 @@ const Coins = (props) => {
             return (
                 <div className="container" key={coin.id}>
                     <div id='firstc'>
-                    <p>{coin.symbol}</p>
+                    <p id='symbol'>{coin.symbol}</p>
                     </div>
                     <div>
                     <img id='coinImg' src={coin.image} alt="image"/>
